@@ -5,7 +5,7 @@ h1{
 	border: 1px solid black;
     margin: 50px;
     background-color: blue;
-    display: inline-block;
+    
     width: 960px;
     height: 986px;
 
@@ -16,6 +16,7 @@ h1{
 	height: 96px;
 	width: 96px;
 	border: 0.1px solid black;
+	display: inline-block;
 
 
 
