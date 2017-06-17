@@ -1,0 +1,25 @@
+h1{
+	color: red;
+}
+.container{
+	border: 1px solid black;
+    margin: 50px;
+    background-color: blue;
+    display: inline-block;
+    width: 960px;
+    height: 986px;
+
+}
+
+.grid{
+	background-color: red;
+	height: 96px;
+	width: 96px;
+	border: 0.1px solid black;
+
+
+
+}
+.green1{
+	background-color: green;
+	}
