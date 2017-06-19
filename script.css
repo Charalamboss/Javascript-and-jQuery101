@@ -3,24 +3,25 @@ h1{
 }
 .container{
 	border: 1px solid black;
-    margin: 50px;
+    margin: 10%;
+    padding: 0px;
     background-color: blue;
-    
-    width: 960px;
-    height: 986px;
+    position: relative;
+    width: 1000px;
+    height: 1000px;
 
 }
 
 .grid{
+	margin:0px;
 	background-color: red;
-	height: 96px;
-	width: 96px;
-	border: 0.1px solid black;
+	
+	float: left;
 	display: inline-block;
-
+	
 
 
 }
-.green1{
-	background-color: green;
+.colum{
+	display: block;
 	}
