@@ -1,6 +1,9 @@
-h1{
-	color: red;
+body{background-color: #e0e0d1;}
+
+button{
+	margin: 3% 3% 0 0;
 }
+
 .container{
 	border: 1px solid black;
     margin: 10%;

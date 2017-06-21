@@ -1,22 +1,31 @@
 
 
-function myFunction() {
-    alert("Hello! I am an alert box!");}
+function clearBox() {
+    var con= confirm("Shall i cler the Sketch?")
+    if (con){
+    $(".container").empty(); 
+    		} // ok so far
+	}
 
 function number(){
 	squarePerSide =prompt("enter value");
-	alert("the number entered is " + squarePerSide);
-	
-	//var squarePerSide=20;
 	var gridSize=100/squarePerSide; /* to calculate the witdth percentage i am using
  	the container width and divide it with the number of squares*/
 	var totalBoxes=squarePerSide*squarePerSide;
-	console.log(gridSize);
 
+
+	if(squarePerSide>100){
+		squarePerSide=2;
+		alert("the maximum number of cells on each side is 100");
+		squarePerSide =prompt("enter the right value this time");
+	};
+
+	
+
+	
 	$(document).ready(function(){
 	
-	
-
+	$(".container").empty(); // clear the previous Boxes
 
 	for(i=0;i<totalBoxes;i++){
 
