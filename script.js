@@ -1,14 +1,14 @@
 
 
 function clearBox() {
-    var con= confirm("Shall i cler the Sketch?")
+    var con= confirm("Shall i clear the Sketch?")
     if (con){
     $(".container").empty(); 
     		} // ok so far
 	}
 
 function number(){
-	squarePerSide =prompt("enter value");
+	squarePerSide =prompt("How many squares you need on each side?");
 	var gridSize=100/squarePerSide; /* to calculate the witdth percentage i am using
  	the container width and divide it with the number of squares*/
 	var totalBoxes=squarePerSide*squarePerSide;
